@@ -16,9 +16,11 @@ class SlotMachine {
             const prize = this.coinCounter;
             this.coinCounter = 0;
             console.log(`Congratulations!!!. You won ${prize} coins!!`);
+            return;
         }
 
         console.log("Good luck next time!!");
+        return;
     };
 }
 
